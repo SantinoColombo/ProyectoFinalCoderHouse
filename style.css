@@ -1,0 +1,78 @@
+/**************************** NAV *****************************/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icon-header {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightseagreen;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+
+
+/**************************** NAV *****************************/
+
+
+/************************** CAROUSEL ************************************/
+
+.carousel-inner {
+    height: 600px;
+}
+
+
+/************************** CAROUSEL ************************************/
+
+.contenedor-cartas {
+    width: 350px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-cards {
+    display: flex;
+    margin: 0 auto;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    color: white;
+    padding: 1rem;
+}
+
+.card img {
+    height: 350px;
+}
