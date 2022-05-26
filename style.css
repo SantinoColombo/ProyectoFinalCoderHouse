@@ -105,7 +105,7 @@ footer {
     margin: 0 auto;
     margin-top: 2rem;
     border-radius: 10px;
-    width: 1320px;
+    width: auto;
 }
 
 .h2 {
@@ -139,4 +139,24 @@ footer {
     align-items: center;
     display: flex;
     margin: auto;
+    border-radius: 10px;
+}
+
+.texto-who {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.amados {
+    background-color: lightgreen;
+    width: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
 }
